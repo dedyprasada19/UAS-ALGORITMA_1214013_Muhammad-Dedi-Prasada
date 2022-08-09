@@ -1,0 +1,2 @@
+# UAS-ALGORITMA_1214013_Muhammad-Dedi-Prasada
+keycontrol();  public void keycontrol()     {         if(Greenfoot.isKeyDown("d"))         {             move(5);         }                  if(Greenfoot.isKeyDown("a"))         {             move(-5);         }                  if(Greenfoot.isKeyDown("s"))         {             setLocation(getX(),getY()+5);         }                  if(Greenfoot.isKeyDown("w"))         {             setLocation(getX(),getY()-5);         }              }
